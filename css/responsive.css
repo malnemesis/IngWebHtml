@@ -1,0 +1,81 @@
+/* (LG revisamos en 1024px) */
+@media (max-width: 1199px) and (min-width: 992px) {
+}
+
+/* (MD revisamos en 768px) */
+@media (max-width: 991px) and (min-width: 768px) {
+  .navbar-dark .navbar-nav .nav-link:hover {
+    border-bottom: none;
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+  }
+
+  .header {
+    position: relative;
+  }
+  .header .barra {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+  }
+
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+/* (SM revisamos en 576px) */
+@media (max-width: 767px) and (min-width: 576px) {
+}
+
+
+/* (revisamos en 320px) */
+
+@media (max-width: 575px) {
+  .navbar-brand {
+    font-size: 23px;
+  }
+
+  .navbar-dark .navbar-nav .nav-link:hover {
+    border-bottom: none;
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+  }
+
+  .noticia {
+  }
+
+  .noticia h3 {
+    text-align: center !important;
+  }
+
+  .noticia h3::after {
+    width: 100% !important;
+    background-color: #71b100;
+  }
+
+  .btnnoticias {
+    text-align: center !important;
+  }
+
+  .footer {
+    padding-top: 0px !important;
+  }
+
+  .copyright {
+    font-size: 14px !important;
+    text-align: center;
+  }
+}
